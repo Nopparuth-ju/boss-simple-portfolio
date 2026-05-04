@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+header {
+    margin-bottom: 3rem;
+    position: relative;
+}
+#theme-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    gap: 5px;
+}
+
+.icon {
+    font-size: 1rem;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+}
+
+/* Active icons are bright */
+body:not(.light-theme) .icon.moon { opacity: 1; }
+body.light-theme .icon.sun { opacity: 1; }
+
+/* Light Theme */
+body.light-theme {
+    background-color: #f4f4f4;
+    color: #333;
+}
+...
+body.light-theme #theme-toggle {
+    background: #ddd;
+}
+
+
+body.light-theme .project-card {
+    background: #fff;
+    border-color: #ddd;
+}
+
+body.light-theme #theme-toggle {
+    background: #ddd;
+    color: #000;
+}
+
+.role {
+    font-weight: bold;
+    color: #00ff9d; /* Accent color for the role */
+    margin-bottom: 0.5rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.tech {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 1rem;
+}
+
+#contact {
+    margin-top: 3rem;
+}
+
+a {
+    color: #00ff9d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
