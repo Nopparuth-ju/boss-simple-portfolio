@@ -15,9 +15,9 @@ A modern, minimalist portfolio website designed for a Data Analyst. This project
 - **Google Fonts**: JetBrains Mono for typography.
 
 ## 📁 Project Structure
-- `index.html`: Main structure of the portfolio.
-- `style.css`: Custom styles and theme definitions.
-- `script.js`: Interactive logic (Theme toggling).
+- `docs/index.html`: Main structure of the portfolio.
+- `docs/style.css`: Custom styles and theme definitions.
+- `docs/script.js`: Interactive logic (Theme toggling).
 - `portfolio-website.md`: Project planning and roadmap.
 
 ## 🚀 Getting Started
@@ -26,7 +26,7 @@ To view this portfolio locally:
    ```bash
    git clone https://github.com/Nopparuth-ju/boss-simple-portfolio.git
    ```
-2. Open `index.html` in your favorite web browser.
+2. Open `docs/index.html` in your favorite web browser.
 
 ## 👤 Contact
 - **Name**: Nopparuth Boss
