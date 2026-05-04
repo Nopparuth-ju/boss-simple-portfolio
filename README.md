@@ -1,6 +1,9 @@
 # Nopparuth Boss - Data Analyst Portfolio
 
-A modern, minimalist portfolio website designed for a Data Analyst. This project features a clean dark theme using the JetBrains Mono font, focused on showcasing data projects and technical expertise.
+A modern, minimalist portfolio website designed for a Data Analyst. This project is hosted on **GitHub Pages** and features a clean dark theme using the JetBrains Mono font.
+
+## 🚀 Live Demo
+View the live portfolio at: [https://nopparuth-ju.github.io/boss-simple-portfolio/](https://nopparuth-ju.github.io/boss-simple-portfolio/)
 
 ## ✨ Features
 - **Minimalist Design**: Clean UI focused on readability and professional identity.
